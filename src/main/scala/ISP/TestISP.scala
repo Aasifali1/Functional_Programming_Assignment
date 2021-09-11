@@ -27,6 +27,5 @@ object TestISP {
     println(unpark(car,new PaidParking()))
     println(calculateFee(car))
 
-
   }
 }

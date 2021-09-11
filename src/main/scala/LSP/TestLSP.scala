@@ -22,6 +22,8 @@ object TestLSP {
     Printer(withdraw(savingAccount, 500)).printMessage
     Printer(withdraw(currentAccount, 500)).printMessage
 
+    Printer(deposit(savingAccount, 500)).printMessage
+
 
   }
 }
